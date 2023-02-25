@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto';
+    font-style: normal;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  a:hover,
+  a:focus {
+    color: var(--accent-color);
+  }
+  a:active {
+    color: var(--accent-color);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  ul {
+    list-style: none;
+  }
