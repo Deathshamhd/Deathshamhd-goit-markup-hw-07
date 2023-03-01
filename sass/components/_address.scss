@@ -32,7 +32,19 @@
     text-align: center;
   }
   
+  .footer__address-mailto {
+    font-family: 'Roboto';
   
+    font-weight: 400;
+  
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  
+    letter-spacing: 0.03em;
+  
+    color: #ffffff;
+    opacity: 0.6;
+  }  
   
 .footer__address-mailto {
     font-family: 'Roboto';

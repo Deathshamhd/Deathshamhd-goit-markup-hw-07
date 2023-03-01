@@ -620,6 +620,10 @@ ul {
   color: white;
 }
 
+.footer__social-link-icon {
+  fill: #ffffff;
+}
+
 .header__contact-list {
   display: flex;
   margin-left: auto;
@@ -814,6 +818,16 @@ ul {
   font-style: normal;
   color: white;
   text-align: center;
+}
+
+.footer__address-mailto {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142857143;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  opacity: 0.6;
 }
 
 .footer__address-mailto {
