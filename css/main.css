@@ -520,8 +520,16 @@ ul {
   margin-left: auto;
 }
 
+.header__nav-item:not(:last-child) {
+  padding-right: 57px;
+}
+
 .header__contact-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.header__nav-list {
+  display: flex;
 }
 
 /* feature-list*/
