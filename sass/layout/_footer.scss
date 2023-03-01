@@ -22,6 +22,23 @@
     display: flex;
   }
 
+  .footer__middle-side {
+    margin-left: 70px;
+  
+  }
+
+  .footer__social-title
+{
+  font-weight: 700;
+font-size: 14px;
+line-height:calc(16/14);
+letter-spacing: 0.03em;
+
+text-transform: uppercase;
+color: var(--light-background-color);
+margin-bottom: 20px;
+}
+
 
   
 .footer__end-side

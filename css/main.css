@@ -269,6 +269,20 @@ ul {
   display: flex;
 }
 
+.footer__middle-side {
+  margin-left: 70px;
+}
+
+.footer__social-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-background-color);
+  margin-bottom: 20px;
+}
+
 .footer__end-side {
   position: absolute;
   left: 49%;
