@@ -621,7 +621,7 @@ border-radius: 0px 0px 4px 4px;
   overflow: hidden;
 }
 
-.button__list {
+.all__button-list {
   display: flex;
 
   justify-content: center;
@@ -675,7 +675,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--accent-color);
 }
 
-.all-text {
+.all__text {
   font-weight: 500;
 
   font-size: 16px;
@@ -687,7 +687,7 @@ border-radius: 0px 0px 4px 4px;
   color: var(--primary-text-color);
 }
 
-.my-project-list {
+.project__list {
   display: flex;
 
   flex-wrap: wrap;
@@ -697,7 +697,7 @@ border-radius: 0px 0px 4px 4px;
   margin-left: calc(-1 * 30px);
 }
 
-.my-project-item {
+.project__item {
   margin-top: 30px;
 
   margin-left: 30px;
@@ -711,12 +711,9 @@ border-radius: 0px 0px 4px 4px;
 position: relative;
 
 overflow: hidden;
-
-
-
 }
-.my-project-item:hover,
-.my-project-item:focus
+.project__item:hover,
+.project__item:focus
 
 {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
@@ -724,11 +721,8 @@ overflow: hidden;
    rgba(0, 0, 0, 0.12);
 }
 
-
-
-
-.my-project-item:hover .overlay-text,
-.my-project-item:focus .overlay-text
+.project__item:hover .overlay-text,
+.project__item:focus .overlay-text
 {
   transform: translateY(0%);
 }
@@ -736,7 +730,7 @@ overflow: hidden;
 
 
 
-.project-name {
+.project__name {
   font-weight: 700;
 
   font-size: 18px;
@@ -748,7 +742,7 @@ overflow: hidden;
   color: var(--primary-text-color);
 }
 
-.card-description {
+.project__card-description {
   padding: 20px 24px;
 
   border-left: 1px solid #eeeeee;
@@ -759,7 +753,7 @@ overflow: hidden;
 }
 
 
-.card-overlay
+.project__card-overlay
 {
   position: relative;
 
@@ -767,7 +761,7 @@ overflow: hidden;
 }
 
 
-.overlay-text
+.project__overlay-text
 {
 
 
@@ -802,7 +796,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-.project-job {
+.project__job {
   font-weight: 400;
 
   font-size: 16px;
