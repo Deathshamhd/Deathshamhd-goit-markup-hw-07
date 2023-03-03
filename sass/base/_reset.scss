@@ -15,14 +15,17 @@ body {
 
   a {
     text-decoration: none;
+
+
+    &:hover,
+    &:focus {
+      color: var(--accent-color);
+    }
+    &:active {
+      color: var(--accent-color);
+    }
   }
-  a:hover,
-  a:focus {
-    color: var(--accent-color);
-  }
-  a:active {
-    color: var(--accent-color);
-  }
+
 
   img {
     max-width: 100%;
