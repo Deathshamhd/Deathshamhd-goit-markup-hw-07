@@ -835,16 +835,6 @@ ul {
   opacity: 0.6;
 }
 
-.footer__address-mailto {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7142857143;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  opacity: 0.6;
-}
-
 .footer__address-tel {
   font-weight: 400;
   font-size: 14px;
