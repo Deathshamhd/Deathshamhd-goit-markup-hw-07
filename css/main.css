@@ -346,6 +346,7 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
+  padding-left: 24px;
 }
 
 .project__card-description {
@@ -397,6 +398,7 @@ ul {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
+  padding-left: 24px;
 }
 
 .project__item:hover,
