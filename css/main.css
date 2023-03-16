@@ -88,13 +88,7 @@ ul {
   padding-top: 94px;
 }
 
-:root {
-  --primary-text-color: #212121;
-  --secondary-text-color: #757575;
-  --accent-color: #2196f3;
-  --dark-background-color: #2f303a;
-  --light-background-color: #f5f4fa;
-}
+
 
 .visually-hidden {
   position: absolute;
